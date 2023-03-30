@@ -1,0 +1,29 @@
+.blog-content{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.coverPicture{
+    min-width: 100%;
+    border-radius: 10px;
+}
+.readTime{
+    display: flex;
+    justify-content: space-between;
+}
+.readTime div h1{
+    margin: 20px 0;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author div{
+    margin: 20px 0;
+    padding-left: 20px;
+}
+.author div h3{
+    margin: 0;
+}
+.author div p{
+    margin: 0;
+}
