@@ -1,23 +1,38 @@
-.reading-time{
-
+.reading-time {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
-.cart{
+
+.reading-time-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #6047EC;
+    padding-left: 30px;
+}
+
+.cart {
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
     padding: 30px;
 }
-.bookmark-number{
+
+.bookmark-number {
     font-weight: 700;
     font-size: 24px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0;
 }
-.blog-title-container{
+
+.blog-title-container {
     background: #FFFFFF;
     border-radius: 8px;
 }
-.blog-title{
+
+.blog-title {
     font-weight: 600;
     font-size: 18px;
     padding: 20px;

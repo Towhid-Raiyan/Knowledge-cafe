@@ -6,6 +6,7 @@ import './Blog.css'
 const Blog = () => {
     const [blogContents, setBlogContents] = useState([])
     const [cart, setCart] = useState([])
+    const [read,setRead] = useState([])
 
     useEffect(()=>{
         fetch('data.json')
@@ -13,8 +14,8 @@ const Blog = () => {
         .then(data=>setBlogContents(data))
     },[])
     const handleReadTime = (blogContent) =>{
-        const newCart = [...cart,blogContent];
-        setCart(newCart);
+        const newRead = [...read,blogContent];
+        setRead(newRead);
     }
     const handleBookmark =(blogContent)=>{
         const newCart = [...cart,blogContent];
@@ -34,7 +35,10 @@ const Blog = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart 
+                read ={read}
+                cart={cart}
+                ></Cart>
             </div>
         </div>
     );
