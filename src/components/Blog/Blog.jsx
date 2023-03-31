@@ -91,14 +91,14 @@ const Blog = () => {
                             handleBookmark={handleBookmark}
                         ></BlogContent>)
                     }
-                    <div className='bg-info p-4 rounded'>
+                    <div className='bg-info p-4 rounded my-2'>
                         <h5>Difference between Props and State?</h5>
                         <p>A state is mutable structure which is used to contain data about components and State Changes can be Asynchronous. State is mutable.Props are read only components. Props allow to pass data from one component to another component. Props are immutable. Props can be accessed by the child component. But State cannot be accessed by child components. Props are external and controlled by whatever renders the component. On the otherhand The State is internal and controlled by the React Component itself.</p>
                     </div>
-                    <div>
-                        <h5></h5>
+                    <div className='bg-info p-4 rounded my-2'>
+                        <h5>How Does useState work?</h5>
                         <p>
-
+                             The useState is a React Hook that allows us to create, track and update state in a functional component. Every time a component renders, useState gives an array containing two values: The state variable with the value that is stored. And a state setter function which can update the state variable and trigger React to render the component again.
                         </p>
                     </div>
                 </div>
