@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Bookmark from '../Bookmark/Bookmark';
 import './Cart.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Cart = (props) => {
     

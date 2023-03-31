@@ -3,12 +3,12 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav >
-            <div className='header'>
-                <h2>Technology Update</h2>
-                <div className='headerLink'>
-                    <h6>Home</h6>
-                    <h6>Login</h6>
+        <nav className='row'>
+            <div className='col-12 col-md-12 d-flex justify-content-between px-5 my-3 w-100'>
+                <h2 className='fw-bold'>Technology Update</h2>
+                <div className='d-flex align-items-center'>
+                    <h6 >Home</h6>
+                    <h6 className='mx-3'>Login</h6>
                     <img src="icon.svg" alt="" srcset="" />
                 </div>
             </div>
