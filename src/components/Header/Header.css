@@ -8,3 +8,9 @@
     font-weight: 700;
     font-size: 30px;
 }
+.headerLink{
+    display: flex;
+}
+.headerLink h6{
+    padding-right: 20px;
+}

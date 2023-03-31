@@ -5,8 +5,10 @@ const Header = () => {
     return (
         <nav >
             <div className='header'>
-                <h2>Knowledge Cafe</h2>
+                <h2>Technology Update</h2>
                 <div className='headerLink'>
+                    <h6>Home</h6>
+                    <h6>Login</h6>
                     <img src="icon.svg" alt="" srcset="" />
                 </div>
             </div>
