@@ -5,6 +5,7 @@
 .coverPicture{
     min-width: 100%;
     border-radius: 10px;
+    max-height: 500px;
 }
 .readTime{
     display: flex;
@@ -12,6 +13,8 @@
 }
 .readTime div h1{
     margin: 20px 0;
+    font-weight: 700;
+    font-size: 40px;
 }
 .author{
     display: flex;
@@ -26,4 +29,7 @@
 }
 .author div p{
     margin: 0;
+}
+.btn-read{
+    color: blue;
 }

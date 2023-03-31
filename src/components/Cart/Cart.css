@@ -1,0 +1,25 @@
+.reading-time{
+
+}
+.cart{
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 30px;
+}
+.bookmark-number{
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.blog-title-container{
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.blog-title{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px;
+    margin: 0;
+}
