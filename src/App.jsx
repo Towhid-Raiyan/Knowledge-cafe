@@ -12,12 +12,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App w-100">
-      <Header></Header>
-      <Blog></Blog>
-      <ToastContainer></ToastContainer>
+    <div className="App w-auto row">
+      <div className='col-12'>
+        <Header></Header>
+        <Blog></Blog>
+        <ToastContainer></ToastContainer>
+      </div>
     </div>
   )
-} 
+}
 
 export default App

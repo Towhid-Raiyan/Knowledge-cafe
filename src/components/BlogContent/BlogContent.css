@@ -2,11 +2,10 @@
     margin: 10px;
     margin-bottom: 30px;
 }
-/* .coverPicture{
-    width: 100%;
-    border-radius: 10px;
+.coverPicture{
+    
     max-height: 500px;
-} */
+}
 .readTime{
     display: flex;
     justify-content: space-between;

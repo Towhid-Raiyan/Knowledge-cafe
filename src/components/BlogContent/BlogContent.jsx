@@ -22,7 +22,7 @@ const BlogContent = (props) => {
                             <p>{writtenDate}</p>
                         </div>
                     </div>
-                    <h1>{blogTitle}</h1>
+                    <h1 className='fs-2 fw-bold'>{blogTitle}</h1>
                     <a onClick={()=>handleReadTime(readTime)} ><u className='text-primary'>Mark as read</u> </a>
                 </div>
                 <p className="my-3">{readTime} min read  <FontAwesomeIcon onClick={()=>handleBookmark(id,blogTitle)} icon={faBookmark} /></p>

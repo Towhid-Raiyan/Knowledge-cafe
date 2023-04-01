@@ -23,12 +23,12 @@ const Cart = (props) => {
     return (
         <div>
             <div className='reading-time'>
-                <h3 className='reading-time-text'>Spent time on read: {readingTime} min</h3>
+                <h3 className='reading-time-text py-3'>Spent time on read: {readingTime} min</h3>
             </div>
             <div className='cart'>
                 <h3 className='bookmark-number'>Bookmarked Blogs: {bookMarks.length}</h3>
-                <div className='blog-title-container'>
-                    <h5 className='blog-title'>
+                <div >
+                    {/* { <h5 className='blog-title'> className='blog-title-container'} */}
                         
                         {
                            bookMarks.map((bookmark)=>(
@@ -39,7 +39,7 @@ const Cart = (props) => {
                             ></Bookmark>
                            )) 
                         }
-                    </h5>
+                    {/* </h5> */}
                 </div>
             </div>
         </div>
